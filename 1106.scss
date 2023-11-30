@@ -1,0 +1,183 @@
+body{
+    background-color: skyblue;
+    margin: 0;
+    position: relative;
+}
+.main{
+    position: absolute;
+    top: 80pt;
+    left:335pt;
+
+    width: 300px;
+    height: 300px;
+
+    
+    .en2{
+        position: relative;
+        top:84pt;
+        left:7pt;
+    }
+    
+    .text{
+        color: rgb(31, 108, 156);
+        margin-left: 80px;
+    }
+}
+.email{
+    width: 300px;
+    height: 75px;
+    
+    .mail{
+        display: block;
+        font-size: 10pt;
+    }
+    .mail2{
+        margin-top: 3px;
+        width: 255px;
+        height: 25px;
+        border-radius: 3px;
+        padding-left: 25px;
+
+    }
+}
+.password{
+    width: 300px;
+    height: 75px;
+    
+    .pass{
+        display: block;
+        font-size: 10pt;
+    }
+    .pass2{
+        margin-top: 3px;
+        width: 280px;
+        height: 25px;
+        border-radius: 3px;
+    }
+}
+.keepLogin{
+    width: 300px;
+    height: 35px;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .keep{
+        font-size: 10pt;
+        margin-right: 105px; 
+    }
+    .signUp{
+        width: 100px;
+        height: 20px;
+        margin-right: 10px;
+        border-radius: 3px;
+        color: white;
+        background-color:lightskyblue;
+        border:1px solid rgb(31, 108, 156);
+    }
+}
+.login{
+    width: 100px;
+    height: 20px;;
+    margin-left:100px ;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: white;
+    background-color:lightskyblue;
+    border:1px solid rgb(31, 108, 156);
+}
+
+// 下一頁的畫面
+
+.main2{
+    position: absolute;
+    top: 80pt;
+    left: 335pt;
+
+    width: 300px;
+    height: 400px;
+    
+    position: relative;
+    .fa-envelope{
+        position: absolute;
+        top: 73px;
+        left: 7px;
+    }
+    .fa-user{
+        position: absolute;
+        top: 133px;
+        left: 7px;
+    }
+    .fa-lock{
+        position: absolute;
+        top: 193px;
+        left: 7px;
+    }
+    .lock2{
+        position: absolute;
+        top: 255px;
+        left: 7px;
+    }
+
+    .page{
+        color: rgb(31, 108, 156);
+        margin-left: 80px;
+    }
+    .account{
+        display: block;
+        font-size: 10pt;
+    }
+    .account2{
+        margin-top: 3px;
+        width: 280px;
+        height: 25px;
+        border-radius: 3px;
+        padding-left: 25px;
+    }
+    .name{
+        display: block;
+        font-size: 10pt;
+        margin-top: 10px;
+    }
+    .name2{
+        margin-top: 3px;
+        width: 280px;
+        height: 25px;
+        border-radius: 3px;
+        padding-left: 25px;
+    }
+    .pword{
+        display: block;
+        font-size: 10pt;
+        margin-top: 10px;
+    }
+    .pword2{
+        margin-top: 3px;
+        width: 280px;
+        height: 25px;
+        border-radius: 3px;
+        padding-left: 25px;
+    }
+    .repword{
+        display: block;
+        font-size: 10pt;
+        margin-top: 10px;
+    }
+    .repword2{
+        margin-top: 3px;
+        width: 280px;
+        height: 25px;
+        border-radius: 3px;
+        padding-left: 25px;
+    }
+    .singup{
+        width: 100px;
+        height: 20px;;
+        margin-left:100px ;
+        margin-top: 30px;
+        border-radius: 3px;
+        color: white;
+        background-color:lightskyblue;
+        border:1px solid rgb(31, 108, 156);
+    }
+}
